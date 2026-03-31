@@ -26,7 +26,7 @@ app = FastAPI(title="AI Co-Founder API")
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"], # Allow your Vercel URL by replacing "*" with it, e.g. ["https://your-app.vercel.app", "http://localhost:5173"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
