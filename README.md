@@ -10,8 +10,8 @@ AI Co-Founder is an end-to-end intelligent system that takes a simple idea and t
 
 🔗 https://ai-co-founder-pp41.vercel.app/
 
-🎥 Demo Video: [Add your demo video link here]  
-📊 Presentation: [Add your presentation link here]
+🎥 Demo Video: https://drive.google.com/file/d/14uv7SrWkzf5ujmIkM5TUrliRgE99mIFp/view?usp=sharing
+📊 Presentation: https://drive.google.com/file/d/1VOHc_kXOSLDqJVBySgX54oIFzIZMQ4w8/view?usp=sharing
 
 ---
 
