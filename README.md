@@ -124,6 +124,4 @@ npm run dev
 
 <div align="center">
 
-**Built with ❤️ for Flipkart GRiD**
-
 </div>
