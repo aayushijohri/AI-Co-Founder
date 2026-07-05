@@ -1,82 +1,43 @@
 <div align="center">
 
-# 🚀 AI Co-Founder
+# 🚀 AIFounder
 
-### Your AI Co-Founder for Building Startups That Actually Work
+### Your AI Co-Founder for Building Startups
 
-Turn raw startup ideas into validated, market-ready business plans using AI-powered market intelligence, competitor analysis, user simulation, and launch planning.
+Generate startup validation, market research, competitive analysis, execution roadmaps, MVP planning, stress testing, and deploy production-ready landing pages—all from a single idea.
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-8E75FF)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Gemini](https://img.shields.io/badge/Gemini-AI-purple?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 
 </div>
 
 ---
 
-# 📖 Overview
+# ✨ Overview
 
-AI Co-Founder is an AI-powered startup assistant that helps founders validate ideas before investing time and money.
+AIFounder is an AI-powered startup operating system that transforms a simple startup idea into an execution-ready business.
 
-The platform analyzes startup ideas, validates market demand, researches competitors, adapts solutions for the Indian market, simulates user feedback, predicts startup success, and generates a launch-ready business blueprint—all in one workflow.
-
----
-
-# 🎯 Problem Statement
-
-Entrepreneurs often spend months building products without validating whether customers actually need them. Existing tools solve isolated problems such as market research or business planning, forcing founders to switch between multiple platforms.
-
-AI Co-Founder combines validation, market intelligence, strategic planning, and launch preparation into one AI-powered platform.
+Instead of generating only business plans, AIFounder performs market validation, competitor benchmarking, localization, execution planning, survivability analysis, and automatically generates a production-ready landing page.
 
 ---
 
-# 💡 Features
+# 🚀 Features
 
-- 🧠 AI Problem Refinement
-- 📊 Startup Validation & Market Analysis
-- 🌍 Global Competitor Intelligence
+- 🧠 AI Startup Validation
+- 🌍 Market & Competitor Analysis
 - 🇮🇳 India Market Adaptation
-- 💼 Startup Blueprint Generation
-- 👥 User Simulation
-- 📈 5-Year Survival Prediction
-- 🚀 Launch Page Generation
-
----
-
-# 🛠 Tech Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Frontend | React 19, TypeScript |
-| Styling | Tailwind CSS |
-| AI | Google Gemini API |
-| Charts | Recharts |
-| Icons | Lucide React |
-| Deployment | Vercel |
-
----
-
-# 🏗 Workflow
-
-```text
-Idea
- │
- ▼
-AI Validation
- │
- ▼
-Market Intelligence
- │
- ▼
-Startup Blueprint
- │
- ▼
-User Simulation
- │
- ▼
-Launch Preparation
-```
+- 💰 Pricing Strategy
+- 📈 Business Model Generation
+- 🎯 Target Audience Discovery
+- 🛠 MVP Planning
+- 📊 Execution Blueprint
+- ⚠ Startup Stress Testing
+- 🤖 Devil's Advocate Analysis
+- 🚀 Landing Page Generator
+- 🌐 One-click Deployment
 
 ---
 
@@ -85,33 +46,117 @@ Launch Preparation
 ## 🏠 Landing Page
 
 <p align="center">
-<img src="screenshots/home.png" width="900"/>
+<img src="screenshots/home.png"/>
 </p>
 
 ---
 
-## 🌍 Market Intelligence
+## 🧠 AI Validation Dashboard
 
 <p align="center">
-<img src="screenshots/market.png" width="900"/>
+<img src="screenshots/analysis-dashboard.png"/>
 </p>
 
 ---
 
-## 🚀 Launch Preparation
+## 🚀 Startup Generated Successfully
 
 <p align="center">
-<img src="screenshots/launch.png" width="900"/>
+<img src="screenshots/startup-live.png"/>
 </p>
+
+---
+
+# ⚙️ Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | Next.js, React, TypeScript |
+| Styling | Tailwind CSS |
+| AI | Google Gemini |
+| Deployment | Vercel |
+| UI | Framer Motion, Lucide Icons |
+
+---
+
+# 🏗️ Workflow
+
+```
+Startup Idea
+      │
+      ▼
+Problem Analysis
+      │
+      ▼
+Market Validation
+      │
+      ▼
+Competitor Research
+      │
+      ▼
+Pricing & Localization
+      │
+      ▼
+Execution Blueprint
+      │
+      ▼
+Stress Testing
+      │
+      ▼
+Landing Page Generation
+      │
+      ▼
+Deploy
+```
+
+---
+
+# 💡 Example Output
+
+Given:
+
+```
+AI-powered fraud detection platform
+```
+
+AIFounder automatically generates:
+
+- Problem Definition
+- Market Validation
+- Competition Matrix
+- Pricing Strategy
+- India Adaptation
+- Revenue Model
+- Execution Roadmap
+- MVP Features
+- Business Strategy
+- Stress Testing
+- Startup Landing Page
+
+---
+
+# 📂 Project Structure
+
+```
+AIFounder/
+│── app/
+│── components/
+│── lib/
+│── public/
+│── screenshots/
+│── styles/
+│── utils/
+└── README.md
+```
 
 ---
 
 # 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/AI-CoFounder.git
+git clone https://github.com/yourusername/AIFounder.git
 
-cd AI-CoFounder
+cd AIFounder
 
 npm install
 
@@ -120,19 +165,19 @@ npm run dev
 
 ---
 
-# 🔮 Future Scope
+# ⭐ Future Improvements
 
-- 🤖 Multi-Agent AI Collaboration
-- 💰 Financial Forecasting
-- 📄 Investor Pitch Deck Generator
-- 📅 Startup Roadmap Planner
-- ⚡ One-Click MVP Generation
-- 👨‍💻 Team Recommendation Engine
+- Multi-LLM Support
+- Investor Pitch Deck Generation
+- Financial Forecasting
+- Team Recommendation Engine
+- AI Logo & Branding Generator
+- Mobile App Support
 
 ---
 
-<div align="center">
+# 👩‍💻 Author
 
-### Empowering founders with AI-driven startup validation and planning.
+**Aayushi Johri**
 
-</div>
+If you found this project useful, consider giving it a ⭐.
