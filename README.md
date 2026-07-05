@@ -1,239 +1,212 @@
+<div align="center">
+      
 # 🚀 AI Co-Founder
 
-Turn your startup idea into a validated, structured, and launch-ready business.
+> **An AI-powered startup blueprinting engine that transforms raw ideas into validated business strategies, market insights, GTM plans, and launch-ready assets.**
 
-AI Co-Founder is an end-to-end AI system that transforms a simple idea into a startup plan by validating problems, analyzing markets, generating execution strategies, stress-testing risks, and preparing launch-ready outputs.
-
-Instead of spending months researching and planning, founders can move from **idea to execution in minutes**.
-
-**Workflow:**  
-Idea → Problem → Validation → Market Analysis → Execution → Testing → Launch
+[![Live Demo](https://img.shields.io/badge/Live-Demo-8A2BE2?style=for-the-badge)](https://ai-co-founder-pp41.vercel.app)
+[![Presentation](https://img.shields.io/badge/Presentation-PDF-blue?style=for-the-badge)](https://drive.google.com/file/d/1VOHc_kXOSLDqJVBySgX54oIFzIZMQ4w8/view?usp=sharing)
+</div>
 
 ---
 
-## Live Demo
-
-**Website:**  
-https://ai-co-founder-pp41.vercel.app/
-
-**Demo Video:**  
-https://drive.google.com/file/d/14uv7SrWkzf5ujmIkM5TUrliRgE99mIFp/view?usp=sharing
-
-**Presentation:**  
-https://drive.google.com/file/d/1VOHc_kXOSLDqJVBySgX54oIFzIZMQ4w8/view?usp=sharing
+![Hero](./screenshots/home.png)
 
 ---
 
-## ✨ About the Project
+## 📖 Overview
 
-Building a startup is difficult.
-
-Most founders struggle with questions like:
-
-- Is this a real problem?
-- Is there market demand?
-- Who are the competitors?
-- Can this idea scale?
-- What should the MVP include?
-- How should the product launch?
-
-AI Co-Founder simplifies this process into one intelligent pipeline.
-
-It acts like an AI startup advisor that helps founders validate ideas, understand markets, generate strategies, and reduce failure risks before investing significant time and money.
+AI Co-Founder helps founders transform startup ideas into structured business blueprints. From validating problems and analyzing competitors to generating GTM strategies, pricing recommendations, startup stress tests, and launch-ready assets, the platform automates the early-stage startup planning process using a guided AI workflow powered by **React**, **FastAPI**, and **Groq Llama models**.
 
 ---
 
-## 🔥 Features
+## 📸 Preview
 
-### Problem Understanding Engine
-
-Converts a raw startup idea into a structured problem statement.
-
-Identifies:
-
-- Target users
-- Pain points
-- Opportunity gaps
-- Problem intensity
-
-### Validation Engine
-
-Evaluates whether the idea is worth building through:
-
-- Demand score analysis
-- Competition evaluation
-- Feasibility insights
-- Market validation
-
-### Global Intelligence + Local Adaptation
-
-Learns from global startup trends and adapts recommendations for local markets.
-
-Provides:
-
-- Pricing suggestions
-- Market positioning
-- Regional adaptation
-- Growth recommendations
-
-### 📊 Market & Competitor Analysis
-
-Analyzes the competitive landscape.
-
-Includes:
-
-- Competitor research
-- Strengths & weaknesses
-- Differentiation opportunities
-- Market insights
-
-### Execution Blueprint
-
-Creates a startup roadmap including:
-
-- Target audience
-- MVP features
-- Revenue model
-- Product roadmap
-- Go-to-market strategy
-
-### 🧪 AI Stress Testing *(Core Feature)*
-
-Tests startup ideas before real-world launch.
-
-Simulates:
-
-- User behavior
-- Failure risks
-- Weak assumptions
-- Edge cases
-
-Provides:
-
-- Risk analysis
-- Critical feedback
-- Pivot suggestions
-
-### Launch Engine
-
-Prepares startups for launch with:
-
-- Landing page concepts
-- Revenue projections
-- Demand indicators
-- Launch recommendations
+| Validation & Market Fit | Generated Startup |
+|--------------------------|-------------------|
+| ![](./screenshots/analysis-dashboard.png) | ![](./screenshots/startup-live.png) |
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Features
 
-### Frontend
-- React 19 (Vite)
-- Tailwind CSS v4
-- React Router v7
-- Recharts
-- Lucide React
-- react-confetti
-- Vercel
-
-### Backend
-- FastAPI
-- Uvicorn
-- Pydantic
-- Groq API
-- python-dotenv
-
-### AI Models
-- `llama-3.3-70b-versatile`
-- `llama-3.1-8b-instant`
-
-### Deployment
-- Frontend: Vercel  
-- Backend: Render
+- 💡 **Problem Validation** – Refines startup ideas into validated business problems.
+- 📊 **Market Analysis** – Generates localized business insights.
+- 🏆 **Competitor Benchmarking** – Compares positioning, pricing, and strengths.
+- 🚀 **Strategy Generator** – Produces Safe, Innovative, and Disruptive startup plans.
+- 🧪 **Startup Stress Testing** – Simulates investor objections and customer feedback.
+- 📢 **GTM Planning** – Generates pricing, launch strategy, and revenue projections.
+- 🌐 **Landing Page Generator** – Creates launch-ready website copy.
+- 🤖 **AI Co-Founder Chat** – Interactive AI assistant for startup brainstorming.
 
 ---
 
-## ⚙️ How It Works
+## 🔄 Workflow
 
-1. Enter your startup idea  
-2. AI converts it into a structured problem  
-3. Validate demand and feasibility  
-4. Analyze market and competitors  
-5. Generate startup directions  
-6. Create an execution roadmap  
-7. Stress test risks and assumptions  
-8. Prepare for launch
+```text
+Startup Idea
+      │
+      ▼
+Problem Validation
+      │
+      ▼
+Market Analysis
+      │
+      ▼
+Competitor Benchmarking
+      │
+      ▼
+Strategy Generation
+      │
+      ▼
+Startup Stress Test
+      │
+      ▼
+GTM Planning
+      │
+      ▼
+Landing Page
+      │
+      ▼
+AI Co-Founder Chat
+```
+
+---
+
+## 🏗️ Architecture
+
+```mermaid
+graph TD
+
+User --> React
+
+React --> FastAPI
+
+FastAPI --> PromptBuilder
+
+PromptBuilder --> Model
+
+Model -->|Primary| Llama-3.3-70B
+
+Model -.->|Fallback| Llama-3.1-8B
+
+Llama-3.3-70B --> JSON
+
+Llama-3.1-8B --> JSON
+
+JSON --> React
+```
+
+The React frontend communicates with a FastAPI backend, which routes structured prompts to Groq LLMs. Responses are validated and returned as structured JSON before rendering in the UI.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React 19, Vite, React Router v7, Tailwind CSS v4 |
+| **Backend** | FastAPI, Uvicorn |
+| **AI** | Groq Cloud (Llama-3.3-70B, Llama-3.1-8B) |
+| **Validation** | Pydantic |
+| **Charts** | Recharts |
+| **Icons** | Lucide React |
 
 ---
 
 ## 📦 Installation
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-co-founder.git
+git clone https://github.com/<your-username>/AI-Co-Founder.git
 
-cd ai-co-founder
+cd AI-Co-Founder
 ```
 
-### Backend Setup
-
-Install dependencies:
+### Backend
 
 ```bash
 cd backend
 
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the backend folder:
+Create a `.env` file
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_groq_api_key
 ```
 
-Run the backend server:
+Run the server
 
 ```bash
-uvicorn main:app --reload
-```
-
-Backend will start at:
-
-```text
-http://localhost:8000
+python main.py
 ```
 
 ---
 
-### Frontend Setup
-
-Install dependencies:
+### Frontend
 
 ```bash
 cd frontend
 
 npm install
-```
 
-Run the frontend:
-
-```bash
 npm run dev
-```
-
-Frontend will start at:
-
-```text
-http://localhost:5173
 ```
 
 ---
 
-## Future Improvements
+## ⚙️ Environment Variables
 
-- Advanced startup scoring  
-- Real-time competitor tracking  
-- AI-powered financial forecasting  
-- Investor readiness analysis  
+| Variable | Description |
+|-----------|-------------|
+| `GROQ_API_KEY` | Groq API Key |
+| `VITE_API_BASE_URL` | Backend API URL |
 
+---
+
+## 📂 Project Structure
+
+```text
+AI-Co-Founder/
+│
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── .env
+│
+└── frontend/
+    ├── assets/
+    ├── components/
+    ├── context/
+    ├── pages/
+    ├── package.json
+    └── vite.config.js
+```
+
+---
+
+## 🚀 Future Improvements
+
+-  User Authentication
+-  Persistent Startup Blueprints
+-  PDF Export
+-  Team Collaboration
+-  Multi-language Support
+-  Cloud Deployment
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See the `LICENSE` file for more information.
