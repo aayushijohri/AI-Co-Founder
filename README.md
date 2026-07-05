@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 AIFounder
+# AI-Co-Founder
 
 ### Your AI Co-Founder for Building Startups
 
