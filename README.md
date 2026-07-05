@@ -1,239 +1,129 @@
+<div align="center">
+
 # 🚀 AI Co-Founder
 
-Turn your startup idea into a validated, structured, and launch-ready business.
+### Your AI Co-Founder for Building Startups That Actually Work
 
-AI Co-Founder is an end-to-end AI system that transforms a simple idea into a startup plan by validating problems, analyzing markets, generating execution strategies, stress-testing risks, and preparing launch-ready outputs.
+Transform ideas into validated, market-ready startups using AI-powered validation, market intelligence, competitive analysis, and launch planning.
 
-Instead of spending months researching and planning, founders can move from **idea to execution in minutes**.
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)]()
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)]()
+[![Gemini AI](https://img.shields.io/badge/Gemini-AI-8E75FF)]()
 
-**Workflow:**  
-Idea → Problem → Validation → Market Analysis → Execution → Testing → Launch
-
----
-
-## Live Demo
-
-**Website:**  
-https://ai-co-founder-pp41.vercel.app/
-
-**Demo Video:**  
-https://drive.google.com/file/d/14uv7SrWkzf5ujmIkM5TUrliRgE99mIFp/view?usp=sharing
-
-**Presentation:**  
-https://drive.google.com/file/d/1VOHc_kXOSLDqJVBySgX54oIFzIZMQ4w8/view?usp=sharing
+</div>
 
 ---
 
-## ✨ About the Project
+## 📖 Overview
 
-Building a startup is difficult.
+AI Co-Founder is an intelligent startup assistant that helps entrepreneurs validate ideas before investing time and money.
 
-Most founders struggle with questions like:
-
-- Is this a real problem?
-- Is there market demand?
-- Who are the competitors?
-- Can this idea scale?
-- What should the MVP include?
-- How should the product launch?
-
-AI Co-Founder simplifies this process into one intelligent pipeline.
-
-It acts like an AI startup advisor that helps founders validate ideas, understand markets, generate strategies, and reduce failure risks before investing significant time and money.
+Instead of jumping straight into development, the platform analyzes market demand, studies global competitors, adapts solutions for the Indian market, simulates user feedback, predicts startup survival, and generates a launch-ready blueprint.
 
 ---
 
-## 🔥 Features
+## ✨ Features
 
-### Problem Understanding Engine
-
-Converts a raw startup idea into a structured problem statement.
-
-Identifies:
-
-- Target users
-- Pain points
-- Opportunity gaps
-- Problem intensity
-
-### Validation Engine
-
-Evaluates whether the idea is worth building through:
-
-- Demand score analysis
-- Competition evaluation
-- Feasibility insights
-- Market validation
-
-### Global Intelligence + Local Adaptation
-
-Learns from global startup trends and adapts recommendations for local markets.
-
-Provides:
-
-- Pricing suggestions
-- Market positioning
-- Regional adaptation
-- Growth recommendations
-
-### 📊 Market & Competitor Analysis
-
-Analyzes the competitive landscape.
-
-Includes:
-
-- Competitor research
-- Strengths & weaknesses
-- Differentiation opportunities
-- Market insights
-
-### Execution Blueprint
-
-Creates a startup roadmap including:
-
-- Target audience
-- MVP features
-- Revenue model
-- Product roadmap
-- Go-to-market strategy
-
-### 🧪 AI Stress Testing *(Core Feature)*
-
-Tests startup ideas before real-world launch.
-
-Simulates:
-
-- User behavior
-- Failure risks
-- Weak assumptions
-- Edge cases
-
-Provides:
-
-- Risk analysis
-- Critical feedback
-- Pivot suggestions
-
-### Launch Engine
-
-Prepares startups for launch with:
-
-- Landing page concepts
-- Revenue projections
-- Demand indicators
-- Launch recommendations
+- 💡 AI-powered problem refinement
+- 📊 Startup validation & market scoring
+- 🌍 Global competitor intelligence
+- 🇮🇳 India-specific market adaptation
+- 🎯 Startup blueprint generation
+- 👥 User simulation & feedback prediction
+- 📈 5-Year survival analysis
+- 🚀 Launch-ready landing page generation
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-- React 19 (Vite)
-- Tailwind CSS v4
-- React Router v7
-- Recharts
-- Lucide React
-- react-confetti
-- Vercel
-
-### Backend
-- FastAPI
-- Uvicorn
-- Pydantic
-- Groq API
-- python-dotenv
-
-### AI Models
-- `llama-3.3-70b-versatile`
-- `llama-3.1-8b-instant`
-
-### Deployment
-- Frontend: Vercel  
-- Backend: Render
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React 19, TypeScript, Tailwind CSS |
+| UI | Framer Motion, Lucide Icons |
+| AI | Google Gemini API |
+| Charts | Recharts |
+| Deployment | Vercel |
 
 ---
 
-## ⚙️ How It Works
+## 📸 Screenshots
 
-1. Enter your startup idea  
-2. AI converts it into a structured problem  
-3. Validate demand and feasibility  
-4. Analyze market and competitors  
-5. Generate startup directions  
-6. Create an execution roadmap  
-7. Stress test risks and assumptions  
-8. Prepare for launch
+### 🏠 Landing Page
+
+<p align="center">
+<img src="screenshots/home.png" width="900">
+</p>
 
 ---
 
-## 📦 Installation
+### 🌍 Market Intelligence
 
-### Clone the Repository
+<p align="center">
+<img src="screenshots/market.png" width="900">
+</p>
 
-```bash
-git clone https://github.com/your-username/ai-co-founder.git
+---
 
-cd ai-co-founder
-```
+### 🚀 Launch Preparation
 
-### Backend Setup
+<p align="center">
+<img src="screenshots/launch.png" width="900">
+</p>
 
-Install dependencies:
+---
 
-```bash
-cd backend
-
-pip install -r requirements.txt
-```
-
-Create a `.env` file in the backend folder:
-
-```env
-GROQ_API_KEY=your_api_key_here
-```
-
-Run the backend server:
-
-```bash
-uvicorn main:app --reload
-```
-
-Backend will start at:
+## 🔄 Workflow
 
 ```text
-http://localhost:8000
+Problem Statement
+        │
+        ▼
+AI Validation
+        │
+        ▼
+Market Intelligence
+        │
+        ▼
+Startup Blueprint
+        │
+        ▼
+Stress Testing
+        │
+        ▼
+Launch Preparation
 ```
 
 ---
 
-### Frontend Setup
-
-Install dependencies:
+## 🚀 Getting Started
 
 ```bash
-cd frontend
+git clone https://github.com/yourusername/ai-cofounder.git
+
+cd ai-cofounder
 
 npm install
-```
 
-Run the frontend:
-
-```bash
 npm run dev
 ```
 
-Frontend will start at:
+---
 
-```text
-http://localhost:5173
-```
+## 🎯 Future Improvements
+
+- Multi-agent AI workflows
+- Investor pitch deck generation
+- Financial forecasting
+- Team recommendation engine
+- Startup roadmap planner
+- One-click MVP generation
 
 ---
 
-## Future Improvements
+<div align="center">
 
-- Advanced startup scoring  
-- Real-time competitor tracking  
-- AI-powered financial forecasting  
-- Investor readiness analysis  
+**Built with ❤️ for Flipkart GRiD**
 
+</div>
