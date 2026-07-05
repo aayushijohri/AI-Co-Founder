@@ -1,160 +1,103 @@
 <div align="center">
 
-# AI-Co-Founder
+# 🚀 AIFounder
 
-### Your AI Co-Founder for Building Startups
+**AI-powered startup validation, market intelligence, execution planning, and launch generation.**
 
-Generate startup validation, market research, competitive analysis, execution roadmaps, MVP planning, stress testing, and deploy production-ready landing pages—all from a single idea.
-
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
-![Gemini](https://img.shields.io/badge/Gemini-AI-purple?style=for-the-badge)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
+[![🌐 Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](YOUR_LIVE_LINK)
+[![🎥 Demo](https://img.shields.io/badge/Demo-Watch-orange?style=flat-square)](YOUR_VIDEO_LINK)
+[![📑 Presentation](https://img.shields.io/badge/Slides-PPT-8B5CF6?style=flat-square)](YOUR_PPT_LINK)
+[![Frontend](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js)]()
 
 </div>
 
 ---
 
-# ✨ Overview
-
-AIFounder is an AI-powered startup operating system that transforms a simple startup idea into an execution-ready business.
-
-Instead of generating only business plans, AIFounder performs market validation, competitor benchmarking, localization, execution planning, survivability analysis, and automatically generates a production-ready landing page.
-
----
-
-# 🚀 Features
-
-- 🧠 AI Startup Validation
-- 🌍 Market & Competitor Analysis
-- 🇮🇳 India Market Adaptation
-- 💰 Pricing Strategy
-- 📈 Business Model Generation
-- 🎯 Target Audience Discovery
-- 🛠 MVP Planning
-- 📊 Execution Blueprint
-- ⚠ Startup Stress Testing
-- 🤖 Devil's Advocate Analysis
-- 🚀 Landing Page Generator
-- 🌐 One-click Deployment
-
----
-
-# 📸 Screenshots
-
-## 🏠 Landing Page
-
 <p align="center">
-<img src="screenshots/home.png"/>
+<img src="./screenshots/home.png" width="100%">
 </p>
 
 ---
 
-## 🧠 AI Validation Dashboard
+## 📖 Overview
 
-<p align="center">
-<img src="screenshots/analysis-dashboard.png"/>
-</p>
+AIFounder is an AI-powered startup planning platform that transforms a single business idea into a structured execution strategy.
 
----
-
-## 🚀 Startup Generated Successfully
-
-<p align="center">
-<img src="screenshots/startup-live.png"/>
-</p>
+The platform validates startup ideas, analyzes competitors and market opportunities, generates pricing and business strategies, stress-tests assumptions, and produces launch-ready assets through a guided AI workflow.
 
 ---
 
-# ⚙️ Tech Stack
+## ✨ Key Features
+
+- AI-powered startup idea validation
+- Market research and competitor analysis
+- India-specific market adaptation
+- Pricing and business model generation
+- MVP planning and execution roadmap
+- Startup stress testing and risk analysis
+- Landing page generation
+- Interactive analytics dashboard
+
+---
+
+## 🏗️ Architecture
+
+```mermaid
+flowchart TD
+
+A[Web Dashboard] -->|Idea Submission| B[Next.js Frontend]
+
+B -->|API Request| C[FastAPI Backend]
+
+C --> D[Gemini AI]
+
+D --> E[Validation]
+
+D --> F[Market Intelligence]
+
+D --> G[Strategy Generation]
+
+E --> H[Execution Plan]
+
+F --> H
+
+G --> H
+
+H --> I[Landing Page Generator]
+
+I --> J[Dashboard Response]
+```
+
+---
+
+## 🛠️ Tech Stack
 
 | Category | Technologies |
-|-----------|--------------|
-| Frontend | Next.js, React, TypeScript |
-| Styling | Tailwind CSS |
-| AI | Google Gemini |
-| Deployment | Vercel |
-| UI | Framer Motion, Lucide Icons |
+|----------|--------------|
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS |
+| **Backend** | FastAPI, Python |
+| **AI** | Google Gemini API |
+| **Visualization** | Recharts |
+| **Deployment** | Vercel |
 
 ---
 
-# 🏗️ Workflow
+## 📸 Preview
 
-```
-Startup Idea
-      │
-      ▼
-Problem Analysis
-      │
-      ▼
-Market Validation
-      │
-      ▼
-Competitor Research
-      │
-      ▼
-Pricing & Localization
-      │
-      ▼
-Execution Blueprint
-      │
-      ▼
-Stress Testing
-      │
-      ▼
-Landing Page Generation
-      │
-      ▼
-Deploy
-```
+<p align="center">
+<img src="./screenshots/analysis-dashboard.png" width="48%">
+<img src="./screenshots/startup-live.png" width="48%">
+</p>
 
 ---
 
-# 💡 Example Output
+## 🚀 Installation
 
-Given:
-
-```
-AI-powered fraud detection platform
-```
-
-AIFounder automatically generates:
-
-- Problem Definition
-- Market Validation
-- Competition Matrix
-- Pricing Strategy
-- India Adaptation
-- Revenue Model
-- Execution Roadmap
-- MVP Features
-- Business Strategy
-- Stress Testing
-- Startup Landing Page
-
----
-
-# 📂 Project Structure
-
-```
-AIFounder/
-│── app/
-│── components/
-│── lib/
-│── public/
-│── screenshots/
-│── styles/
-│── utils/
-└── README.md
-```
-
----
-
-# 🚀 Getting Started
+<details>
+<summary><strong>Run Locally</strong></summary>
 
 ```bash
-git clone https://github.com/yourusername/AIFounder.git
+git clone https://github.com/YOUR_USERNAME/AIFounder.git
 
 cd AIFounder
 
@@ -163,21 +106,28 @@ npm install
 npm run dev
 ```
 
----
+Create a `.env.local` file:
 
-# ⭐ Future Improvements
+```env
+GEMINI_API_KEY=your_api_key
+```
 
-- Multi-LLM Support
-- Investor Pitch Deck Generation
-- Financial Forecasting
-- Team Recommendation Engine
-- AI Logo & Branding Generator
-- Mobile App Support
+</details>
 
 ---
 
-# 👩‍💻 Author
+## 📂 Project Structure
 
-**Aayushi Johri**
+```text
+app/
+components/
+lib/
+public/
+screenshots/
+```
 
-If you found this project useful, consider giving it a ⭐.
+---
+
+## 📄 License
+
+MIT
