@@ -4,9 +4,9 @@
 
 **AI-powered startup validation, market intelligence, execution planning, and launch generation.**
 
-[![🌐 Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](YOUR_LIVE_LINK)
-[![🎥 Demo](https://img.shields.io/badge/Demo-Watch-orange?style=flat-square)](YOUR_VIDEO_LINK)
-[![📑 Presentation](https://img.shields.io/badge/Slides-PPT-8B5CF6?style=flat-square)](YOUR_PPT_LINK)
+[![🌐 Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://ai-co-founder-pp41.vercel.app/)
+[![🎥 Demo](https://img.shields.io/badge/Demo-Watch-orange?style=flat-square)](https://drive.google.com/file/d/14uv7SrWkzf5ujmIkM5TUrliRgE99mIFp/view?usp=sharing)
+[![📑 Presentation](https://img.shields.io/badge/Slides-PPT-8B5CF6?style=flat-square)](https://drive.google.com/file/d/1VOHc_kXOSLDqJVBySgX54oIFzIZMQ4w8/view?usp=sharing)
 [![Frontend](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js)]()
 
 </div>
